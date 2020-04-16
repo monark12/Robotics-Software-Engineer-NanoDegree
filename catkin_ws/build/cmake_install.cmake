@@ -131,8 +131,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/workspace/catkin_ws/build/ball_chaser/cmake_install.cmake")
   include("/home/workspace/catkin_ws/build/pgm_map_creator/cmake_install.cmake")
   include("/home/workspace/catkin_ws/build/amcl/cmake_install.cmake")
-  include("/home/workspace/catkin_ws/build/costmap_2d/cmake_install.cmake")
-  include("/home/workspace/catkin_ws/build/move_base/cmake_install.cmake")
 
 endif()
 
