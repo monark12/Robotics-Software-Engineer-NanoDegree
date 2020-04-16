@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/workspace/catkin_ws/src/pgm_map_creator/src/collision_map_creator.cc
+/home/workspace/catkinws/src/pgm_map_creator/src/collision_map_creator.cc
 fstream
 -
 iostream
@@ -24,17 +24,17 @@ sdf/sdf.hh
 ignition/math/Vector3.hh
 -
 gazebo/gazebo.hh
-/home/workspace/catkin_ws/src/pgm_map_creator/src/gazebo/gazebo.hh
+/home/workspace/catkinws/src/pgm_map_creator/src/gazebo/gazebo.hh
 gazebo/common/common.hh
-/home/workspace/catkin_ws/src/pgm_map_creator/src/gazebo/common/common.hh
+/home/workspace/catkinws/src/pgm_map_creator/src/gazebo/common/common.hh
 gazebo/msgs/msgs.hh
-/home/workspace/catkin_ws/src/pgm_map_creator/src/gazebo/msgs/msgs.hh
+/home/workspace/catkinws/src/pgm_map_creator/src/gazebo/msgs/msgs.hh
 gazebo/physics/physics.hh
-/home/workspace/catkin_ws/src/pgm_map_creator/src/gazebo/physics/physics.hh
+/home/workspace/catkinws/src/pgm_map_creator/src/gazebo/physics/physics.hh
 gazebo/transport/transport.hh
-/home/workspace/catkin_ws/src/pgm_map_creator/src/gazebo/transport/transport.hh
+/home/workspace/catkinws/src/pgm_map_creator/src/gazebo/transport/transport.hh
 collision_map_request.pb.h
-/home/workspace/catkin_ws/src/pgm_map_creator/src/collision_map_request.pb.h
+/home/workspace/catkinws/src/pgm_map_creator/src/collision_map_request.pb.h
 
 /usr/include/gazebo-7/gazebo/Master.hh
 string

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/workspace/catkin_ws/devel/include/amcl/AMCLConfig.h
+/home/workspace/catkinws/devel/include/amcl/AMCLConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,45 +24,45 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/workspace/catkin_ws/src/amcl/include/amcl/map/map.h
+/home/workspace/catkinws/src/amcl/include/amcl/map/map.h
 stdint.h
 -
 
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf.h
 pf_vector.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf_vector.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf_vector.h
 pf_kdtree.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf_kdtree.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf_kdtree.h
 
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf_kdtree.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf_kdtree.h
 rtk.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/rtk.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/rtk.h
 
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf_pdf.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf_pdf.h
 pf_vector.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf_vector.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf_vector.h
 
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf_vector.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf_vector.h
 stdio.h
 -
 
-/home/workspace/catkin_ws/src/amcl/include/amcl/sensors/amcl_laser.h
+/home/workspace/catkinws/src/amcl/include/amcl/sensors/amcl_laser.h
 amcl_sensor.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/sensors/amcl_sensor.h
+/home/workspace/catkinws/src/amcl/include/amcl/sensors/amcl_sensor.h
 ../map/map.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/map/map.h
+/home/workspace/catkinws/src/amcl/include/amcl/map/map.h
 
-/home/workspace/catkin_ws/src/amcl/include/amcl/sensors/amcl_odom.h
+/home/workspace/catkinws/src/amcl/include/amcl/sensors/amcl_odom.h
 amcl_sensor.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/sensors/amcl_sensor.h
+/home/workspace/catkinws/src/amcl/include/amcl/sensors/amcl_sensor.h
 ../pf/pf_pdf.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf_pdf.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf_pdf.h
 
-/home/workspace/catkin_ws/src/amcl/include/amcl/sensors/amcl_sensor.h
+/home/workspace/catkinws/src/amcl/include/amcl/sensors/amcl_sensor.h
 ../pf/pf.h
-/home/workspace/catkin_ws/src/amcl/include/amcl/pf/pf.h
+/home/workspace/catkinws/src/amcl/include/amcl/pf/pf.h
 
-/home/workspace/catkin_ws/src/amcl/src/amcl_node.cpp
+/home/workspace/catkinws/src/amcl/src/amcl_node.cpp
 algorithm
 -
 vector
@@ -80,57 +80,57 @@ boost/thread/mutex.hpp
 signal.h
 -
 amcl/map/map.h
-/home/workspace/catkin_ws/src/amcl/src/amcl/map/map.h
+/home/workspace/catkinws/src/amcl/src/amcl/map/map.h
 amcl/pf/pf.h
-/home/workspace/catkin_ws/src/amcl/src/amcl/pf/pf.h
+/home/workspace/catkinws/src/amcl/src/amcl/pf/pf.h
 amcl/sensors/amcl_odom.h
-/home/workspace/catkin_ws/src/amcl/src/amcl/sensors/amcl_odom.h
+/home/workspace/catkinws/src/amcl/src/amcl/sensors/amcl_odom.h
 amcl/sensors/amcl_laser.h
-/home/workspace/catkin_ws/src/amcl/src/amcl/sensors/amcl_laser.h
+/home/workspace/catkinws/src/amcl/src/amcl/sensors/amcl_laser.h
 portable_utils.hpp
-/home/workspace/catkin_ws/src/amcl/src/portable_utils.hpp
+/home/workspace/catkinws/src/amcl/src/portable_utils.hpp
 ros/assert.h
-/home/workspace/catkin_ws/src/amcl/src/ros/assert.h
+/home/workspace/catkinws/src/amcl/src/ros/assert.h
 ros/ros.h
-/home/workspace/catkin_ws/src/amcl/src/ros/ros.h
+/home/workspace/catkinws/src/amcl/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/workspace/catkin_ws/src/amcl/src/sensor_msgs/LaserScan.h
+/home/workspace/catkinws/src/amcl/src/sensor_msgs/LaserScan.h
 geometry_msgs/PoseWithCovarianceStamped.h
-/home/workspace/catkin_ws/src/amcl/src/geometry_msgs/PoseWithCovarianceStamped.h
+/home/workspace/catkinws/src/amcl/src/geometry_msgs/PoseWithCovarianceStamped.h
 geometry_msgs/PoseArray.h
-/home/workspace/catkin_ws/src/amcl/src/geometry_msgs/PoseArray.h
+/home/workspace/catkinws/src/amcl/src/geometry_msgs/PoseArray.h
 geometry_msgs/Pose.h
-/home/workspace/catkin_ws/src/amcl/src/geometry_msgs/Pose.h
+/home/workspace/catkinws/src/amcl/src/geometry_msgs/Pose.h
 geometry_msgs/PoseStamped.h
-/home/workspace/catkin_ws/src/amcl/src/geometry_msgs/PoseStamped.h
+/home/workspace/catkinws/src/amcl/src/geometry_msgs/PoseStamped.h
 nav_msgs/GetMap.h
-/home/workspace/catkin_ws/src/amcl/src/nav_msgs/GetMap.h
+/home/workspace/catkinws/src/amcl/src/nav_msgs/GetMap.h
 nav_msgs/SetMap.h
-/home/workspace/catkin_ws/src/amcl/src/nav_msgs/SetMap.h
+/home/workspace/catkinws/src/amcl/src/nav_msgs/SetMap.h
 std_srvs/Empty.h
-/home/workspace/catkin_ws/src/amcl/src/std_srvs/Empty.h
+/home/workspace/catkinws/src/amcl/src/std_srvs/Empty.h
 tf2/LinearMath/Transform.h
-/home/workspace/catkin_ws/src/amcl/src/tf2/LinearMath/Transform.h
+/home/workspace/catkinws/src/amcl/src/tf2/LinearMath/Transform.h
 tf2/convert.h
-/home/workspace/catkin_ws/src/amcl/src/tf2/convert.h
+/home/workspace/catkinws/src/amcl/src/tf2/convert.h
 tf2/utils.h
-/home/workspace/catkin_ws/src/amcl/src/tf2/utils.h
+/home/workspace/catkinws/src/amcl/src/tf2/utils.h
 tf2_geometry_msgs/tf2_geometry_msgs.h
-/home/workspace/catkin_ws/src/amcl/src/tf2_geometry_msgs/tf2_geometry_msgs.h
+/home/workspace/catkinws/src/amcl/src/tf2_geometry_msgs/tf2_geometry_msgs.h
 tf2_ros/buffer.h
-/home/workspace/catkin_ws/src/amcl/src/tf2_ros/buffer.h
+/home/workspace/catkinws/src/amcl/src/tf2_ros/buffer.h
 tf2_ros/message_filter.h
-/home/workspace/catkin_ws/src/amcl/src/tf2_ros/message_filter.h
+/home/workspace/catkinws/src/amcl/src/tf2_ros/message_filter.h
 tf2_ros/transform_broadcaster.h
-/home/workspace/catkin_ws/src/amcl/src/tf2_ros/transform_broadcaster.h
+/home/workspace/catkinws/src/amcl/src/tf2_ros/transform_broadcaster.h
 tf2_ros/transform_listener.h
-/home/workspace/catkin_ws/src/amcl/src/tf2_ros/transform_listener.h
+/home/workspace/catkinws/src/amcl/src/tf2_ros/transform_listener.h
 message_filters/subscriber.h
-/home/workspace/catkin_ws/src/amcl/src/message_filters/subscriber.h
+/home/workspace/catkinws/src/amcl/src/message_filters/subscriber.h
 dynamic_reconfigure/server.h
-/home/workspace/catkin_ws/src/amcl/src/dynamic_reconfigure/server.h
+/home/workspace/catkinws/src/amcl/src/dynamic_reconfigure/server.h
 amcl/AMCLConfig.h
-/home/workspace/catkin_ws/src/amcl/src/amcl/AMCLConfig.h
+/home/workspace/catkinws/src/amcl/src/amcl/AMCLConfig.h
 rosbag/bag.h
 -
 rosbag/view.h
@@ -140,7 +140,7 @@ boost/foreach.hpp
 diagnostic_updater/diagnostic_updater.h
 -
 
-/home/workspace/catkin_ws/src/amcl/src/include/portable_utils.hpp
+/home/workspace/catkinws/src/amcl/src/include/portable_utils.hpp
 stdlib.h
 -
 

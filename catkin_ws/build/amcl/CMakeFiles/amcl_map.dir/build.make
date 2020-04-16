@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/catkinws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/catkinws/build
 
 # Include any dependencies generated for this target.
 include amcl/CMakeFiles/amcl_map.dir/depend.make
@@ -58,17 +58,17 @@ include amcl/CMakeFiles/amcl_map.dir/progress.make
 include amcl/CMakeFiles/amcl_map.dir/flags.make
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o: amcl/CMakeFiles/amcl_map.dir/flags.make
-amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o: /home/workspace/catkin_ws/src/amcl/src/amcl/map/map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o   -c /home/workspace/catkin_ws/src/amcl/src/amcl/map/map.c
+amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o: /home/workspace/catkinws/src/amcl/src/amcl/map/map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkinws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o"
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o   -c /home/workspace/catkinws/src/amcl/src/amcl/map/map.c
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/amcl_map.dir/src/amcl/map/map.c.i"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/workspace/catkin_ws/src/amcl/src/amcl/map/map.c > CMakeFiles/amcl_map.dir/src/amcl/map/map.c.i
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/workspace/catkinws/src/amcl/src/amcl/map/map.c > CMakeFiles/amcl_map.dir/src/amcl/map/map.c.i
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/amcl_map.dir/src/amcl/map/map.c.s"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/workspace/catkin_ws/src/amcl/src/amcl/map/map.c -o CMakeFiles/amcl_map.dir/src/amcl/map/map.c.s
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/workspace/catkinws/src/amcl/src/amcl/map/map.c -o CMakeFiles/amcl_map.dir/src/amcl/map/map.c.s
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o.requires:
 
@@ -82,17 +82,17 @@ amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o.provides.build: amcl/CMakeFile
 
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o: amcl/CMakeFiles/amcl_map.dir/flags.make
-amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o: /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_cspace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o -c /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_cspace.cpp
+amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o: /home/workspace/catkinws/src/amcl/src/amcl/map/map_cspace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkinws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o"
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o -c /home/workspace/catkinws/src/amcl/src/amcl/map/map_cspace.cpp
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.i"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_cspace.cpp > CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.i
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/catkinws/src/amcl/src/amcl/map/map_cspace.cpp > CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.i
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.s"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_cspace.cpp -o CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.s
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/catkinws/src/amcl/src/amcl/map/map_cspace.cpp -o CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.s
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o.requires:
 
@@ -106,17 +106,17 @@ amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o.provides.build: amcl/
 
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o: amcl/CMakeFiles/amcl_map.dir/flags.make
-amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o: /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_range.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o   -c /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_range.c
+amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o: /home/workspace/catkinws/src/amcl/src/amcl/map/map_range.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkinws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o"
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o   -c /home/workspace/catkinws/src/amcl/src/amcl/map/map_range.c
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.i"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_range.c > CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.i
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/workspace/catkinws/src/amcl/src/amcl/map/map_range.c > CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.i
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.s"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_range.c -o CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.s
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/workspace/catkinws/src/amcl/src/amcl/map/map_range.c -o CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.s
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o.requires:
 
@@ -130,17 +130,17 @@ amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o.provides.build: amcl/CMa
 
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o: amcl/CMakeFiles/amcl_map.dir/flags.make
-amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o: /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_store.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o   -c /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_store.c
+amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o: /home/workspace/catkinws/src/amcl/src/amcl/map/map_store.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkinws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o"
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o   -c /home/workspace/catkinws/src/amcl/src/amcl/map/map_store.c
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.i"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_store.c > CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.i
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/workspace/catkinws/src/amcl/src/amcl/map/map_store.c > CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.i
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.s"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_store.c -o CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.s
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/workspace/catkinws/src/amcl/src/amcl/map/map_store.c -o CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.s
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o.requires:
 
@@ -154,17 +154,17 @@ amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o.provides.build: amcl/CMa
 
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o: amcl/CMakeFiles/amcl_map.dir/flags.make
-amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o: /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_draw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o   -c /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_draw.c
+amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o: /home/workspace/catkinws/src/amcl/src/amcl/map/map_draw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkinws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o"
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o   -c /home/workspace/catkinws/src/amcl/src/amcl/map/map_draw.c
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.i"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_draw.c > CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.i
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/workspace/catkinws/src/amcl/src/amcl/map/map_draw.c > CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.i
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.s"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/workspace/catkin_ws/src/amcl/src/amcl/map/map_draw.c -o CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.s
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/workspace/catkinws/src/amcl/src/amcl/map/map_draw.c -o CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.s
 
 amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o.requires:
 
@@ -188,18 +188,18 @@ amcl_map_OBJECTS = \
 # External object files for target amcl_map
 amcl_map_EXTERNAL_OBJECTS =
 
-/home/workspace/catkin_ws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o
-/home/workspace/catkin_ws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o
-/home/workspace/catkin_ws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o
-/home/workspace/catkin_ws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o
-/home/workspace/catkin_ws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o
-/home/workspace/catkin_ws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/build.make
-/home/workspace/catkin_ws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/workspace/catkin_ws/devel/lib/libamcl_map.so"
-	cd /home/workspace/catkin_ws/build/amcl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/amcl_map.dir/link.txt --verbose=$(VERBOSE)
+/home/workspace/catkinws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map.c.o
+/home/workspace/catkinws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_cspace.cpp.o
+/home/workspace/catkinws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_range.c.o
+/home/workspace/catkinws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_store.c.o
+/home/workspace/catkinws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/src/amcl/map/map_draw.c.o
+/home/workspace/catkinws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/build.make
+/home/workspace/catkinws/devel/lib/libamcl_map.so: amcl/CMakeFiles/amcl_map.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/catkinws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/workspace/catkinws/devel/lib/libamcl_map.so"
+	cd /home/workspace/catkinws/build/amcl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/amcl_map.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-amcl/CMakeFiles/amcl_map.dir/build: /home/workspace/catkin_ws/devel/lib/libamcl_map.so
+amcl/CMakeFiles/amcl_map.dir/build: /home/workspace/catkinws/devel/lib/libamcl_map.so
 
 .PHONY : amcl/CMakeFiles/amcl_map.dir/build
 
@@ -212,10 +212,10 @@ amcl/CMakeFiles/amcl_map.dir/requires: amcl/CMakeFiles/amcl_map.dir/src/amcl/map
 .PHONY : amcl/CMakeFiles/amcl_map.dir/requires
 
 amcl/CMakeFiles/amcl_map.dir/clean:
-	cd /home/workspace/catkin_ws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/amcl_map.dir/cmake_clean.cmake
+	cd /home/workspace/catkinws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/amcl_map.dir/cmake_clean.cmake
 .PHONY : amcl/CMakeFiles/amcl_map.dir/clean
 
 amcl/CMakeFiles/amcl_map.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/amcl /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/amcl /home/workspace/catkin_ws/build/amcl/CMakeFiles/amcl_map.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkinws/src /home/workspace/catkinws/src/amcl /home/workspace/catkinws/build /home/workspace/catkinws/build/amcl /home/workspace/catkinws/build/amcl/CMakeFiles/amcl_map.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : amcl/CMakeFiles/amcl_map.dir/depend
 

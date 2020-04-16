@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/catkinws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/catkinws/build
 
 # Include any dependencies generated for this target.
 include amcl/CMakeFiles/amcl.dir/depend.make
@@ -58,17 +58,17 @@ include amcl/CMakeFiles/amcl.dir/progress.make
 include amcl/CMakeFiles/amcl.dir/flags.make
 
 amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o: amcl/CMakeFiles/amcl.dir/flags.make
-amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o: /home/workspace/catkin_ws/src/amcl/src/amcl_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amcl.dir/src/amcl_node.cpp.o -c /home/workspace/catkin_ws/src/amcl/src/amcl_node.cpp
+amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o: /home/workspace/catkinws/src/amcl/src/amcl_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkinws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o"
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/amcl.dir/src/amcl_node.cpp.o -c /home/workspace/catkinws/src/amcl/src/amcl_node.cpp
 
 amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/amcl.dir/src/amcl_node.cpp.i"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/catkin_ws/src/amcl/src/amcl_node.cpp > CMakeFiles/amcl.dir/src/amcl_node.cpp.i
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/catkinws/src/amcl/src/amcl_node.cpp > CMakeFiles/amcl.dir/src/amcl_node.cpp.i
 
 amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/amcl.dir/src/amcl_node.cpp.s"
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/catkin_ws/src/amcl/src/amcl_node.cpp -o CMakeFiles/amcl.dir/src/amcl_node.cpp.s
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/catkinws/src/amcl/src/amcl_node.cpp -o CMakeFiles/amcl.dir/src/amcl_node.cpp.s
 
 amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o.requires:
 
@@ -88,49 +88,49 @@ amcl_OBJECTS = \
 # External object files for target amcl
 amcl_EXTERNAL_OBJECTS =
 
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: amcl/CMakeFiles/amcl.dir/build.make
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /home/workspace/catkin_ws/devel/lib/libamcl_sensors.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /home/workspace/catkin_ws/devel/lib/libamcl_map.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /home/workspace/catkin_ws/devel/lib/libamcl_pf.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosbag.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosbag_storage.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libroslz4.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libtopic_tools.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/liborocos-kdl.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libactionlib.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libroscpp.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosconsole.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libtf2.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librostime.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libcpp_common.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/workspace/catkin_ws/devel/lib/amcl/amcl: amcl/CMakeFiles/amcl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/workspace/catkin_ws/devel/lib/amcl/amcl"
-	cd /home/workspace/catkin_ws/build/amcl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/amcl.dir/link.txt --verbose=$(VERBOSE)
+/home/workspace/catkinws/devel/lib/amcl/amcl: amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o
+/home/workspace/catkinws/devel/lib/amcl/amcl: amcl/CMakeFiles/amcl.dir/build.make
+/home/workspace/catkinws/devel/lib/amcl/amcl: /home/workspace/catkinws/devel/lib/libamcl_sensors.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /home/workspace/catkinws/devel/lib/libamcl_map.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /home/workspace/catkinws/devel/lib/libamcl_pf.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosbag.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosbag_storage.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libroslz4.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libtopic_tools.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/liborocos-kdl.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libactionlib.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libroscpp.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosconsole.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libtf2.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/librostime.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /opt/ros/kinetic/lib/libcpp_common.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/workspace/catkinws/devel/lib/amcl/amcl: amcl/CMakeFiles/amcl.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/catkinws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/workspace/catkinws/devel/lib/amcl/amcl"
+	cd /home/workspace/catkinws/build/amcl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/amcl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-amcl/CMakeFiles/amcl.dir/build: /home/workspace/catkin_ws/devel/lib/amcl/amcl
+amcl/CMakeFiles/amcl.dir/build: /home/workspace/catkinws/devel/lib/amcl/amcl
 
 .PHONY : amcl/CMakeFiles/amcl.dir/build
 
@@ -139,10 +139,10 @@ amcl/CMakeFiles/amcl.dir/requires: amcl/CMakeFiles/amcl.dir/src/amcl_node.cpp.o.
 .PHONY : amcl/CMakeFiles/amcl.dir/requires
 
 amcl/CMakeFiles/amcl.dir/clean:
-	cd /home/workspace/catkin_ws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/amcl.dir/cmake_clean.cmake
+	cd /home/workspace/catkinws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/amcl.dir/cmake_clean.cmake
 .PHONY : amcl/CMakeFiles/amcl.dir/clean
 
 amcl/CMakeFiles/amcl.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/amcl /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/amcl /home/workspace/catkin_ws/build/amcl/CMakeFiles/amcl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkinws/src /home/workspace/catkinws/src/amcl /home/workspace/catkinws/build /home/workspace/catkinws/build/amcl /home/workspace/catkinws/build/amcl/CMakeFiles/amcl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : amcl/CMakeFiles/amcl.dir/depend
 

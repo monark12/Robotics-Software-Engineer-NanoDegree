@@ -1,8 +1,8 @@
-# Install script for directory: /home/workspace/catkin_ws/src/teleop_twist_keyboard
+# Install script for directory: /home/workspace/catkinws/src/teleop_twist_keyboard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/workspace/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/catkinws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/workspace/catkin_ws/build/teleop_twist_keyboard/catkin_generated/installspace/teleop_twist_keyboard.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/workspace/catkinws/build/teleop_twist_keyboard/catkin_generated/installspace/teleop_twist_keyboard.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_keyboard/cmake" TYPE FILE FILES
-    "/home/workspace/catkin_ws/build/teleop_twist_keyboard/catkin_generated/installspace/teleop_twist_keyboardConfig.cmake"
-    "/home/workspace/catkin_ws/build/teleop_twist_keyboard/catkin_generated/installspace/teleop_twist_keyboardConfig-version.cmake"
+    "/home/workspace/catkinws/build/teleop_twist_keyboard/catkin_generated/installspace/teleop_twist_keyboardConfig.cmake"
+    "/home/workspace/catkinws/build/teleop_twist_keyboard/catkin_generated/installspace/teleop_twist_keyboardConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_keyboard" TYPE FILE FILES "/home/workspace/catkin_ws/src/teleop_twist_keyboard/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleop_twist_keyboard" TYPE FILE FILES "/home/workspace/catkinws/src/teleop_twist_keyboard/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_keyboard" TYPE PROGRAM FILES "/home/workspace/catkin_ws/build/teleop_twist_keyboard/catkin_generated/installspace/teleop_twist_keyboard.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/teleop_twist_keyboard" TYPE PROGRAM FILES "/home/workspace/catkinws/build/teleop_twist_keyboard/catkin_generated/installspace/teleop_twist_keyboard.py")
 endif()
 

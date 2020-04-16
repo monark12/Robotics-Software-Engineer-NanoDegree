@@ -13,7 +13,8 @@
 	  <param name="global_frame_id" value="map"/>
 	  <param name="initial_pose_x" value="0"/>
 	  <param name="initial_pose_y" value="0"/>
-	  <param name="initial_pose_a" value="0"/>
+	  <param name="initial_pose_a" value="-1.5707963268"/>
+      <param name="min_particles" value="300"/>
 	  <param name="max_particles" value="1000"/>
 	  <param name="update_min_d" value="0.01"/>
 	  <param name="update_min_a" value="0.01"/>
@@ -25,6 +26,8 @@
 	<!-- move base node -->
 	<node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
 	  <remap from="scan" to="my_robot/laser/scan"/>
+      <remap from="cmd_vel" to="cmd_vel"/>
+      <remap from="odom" to="odom"/>
 	  <param name="base_global_planner" value="navfn/NavfnROS"/>
 	  <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
 	  <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="global_costmap"/>

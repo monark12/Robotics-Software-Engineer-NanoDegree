@@ -1,4 +1,4 @@
-prefix=/home/workspace/catkin_ws/install
+prefix=/home/workspace/catkinws/install
 
 Name: ball_chaser
 Description: Description of ball_chaser

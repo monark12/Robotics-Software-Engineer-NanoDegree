@@ -67,14 +67,14 @@ set(teleop_twist_keyboard_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(teleop_twist_keyboard_SOURCE_PREFIX /home/workspace/catkin_ws/src/teleop_twist_keyboard)
-  set(teleop_twist_keyboard_DEVEL_PREFIX /home/workspace/catkin_ws/devel)
+  set(teleop_twist_keyboard_SOURCE_PREFIX /home/workspace/catkinws/src/teleop_twist_keyboard)
+  set(teleop_twist_keyboard_DEVEL_PREFIX /home/workspace/catkinws/devel)
   set(teleop_twist_keyboard_INSTALL_PREFIX "")
   set(teleop_twist_keyboard_PREFIX ${teleop_twist_keyboard_DEVEL_PREFIX})
 else()
   set(teleop_twist_keyboard_SOURCE_PREFIX "")
   set(teleop_twist_keyboard_DEVEL_PREFIX "")
-  set(teleop_twist_keyboard_INSTALL_PREFIX /home/workspace/catkin_ws/install)
+  set(teleop_twist_keyboard_INSTALL_PREFIX /home/workspace/catkinws/install)
   set(teleop_twist_keyboard_PREFIX ${teleop_twist_keyboard_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/workspace/catkin_ws/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/workspace/catkinws/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

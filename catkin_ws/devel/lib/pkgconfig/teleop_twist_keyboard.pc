@@ -1,4 +1,4 @@
-prefix=/home/workspace/catkin_ws/devel
+prefix=/home/workspace/catkinws/devel
 
 Name: teleop_twist_keyboard
 Description: Description of teleop_twist_keyboard

@@ -1,4 +1,4 @@
-prefix=/home/workspace/catkin_ws/devel
+prefix=/home/workspace/catkinws/devel
 
 Name: pgm_map_creator
 Description: Description of pgm_map_creator

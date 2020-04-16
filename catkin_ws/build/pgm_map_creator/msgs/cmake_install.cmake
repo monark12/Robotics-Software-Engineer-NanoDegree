@@ -1,8 +1,8 @@
-# Install script for directory: /home/workspace/catkin_ws/src/pgm_map_creator/msgs
+# Install script for directory: /home/workspace/catkinws/src/pgm_map_creator/msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/workspace/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/catkinws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

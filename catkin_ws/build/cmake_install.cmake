@@ -1,8 +1,8 @@
-# Install script for directory: /home/workspace/catkin_ws/src
+# Install script for directory: /home/workspace/catkinws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/workspace/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/workspace/catkinws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,93 +44,93 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/workspace/catkin_ws/install/_setup_util.py")
+   "/home/workspace/catkinws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/workspace/catkin_ws/install" TYPE PROGRAM FILES "/home/workspace/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/workspace/catkinws/install" TYPE PROGRAM FILES "/home/workspace/catkinws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/workspace/catkin_ws/install/env.sh")
+   "/home/workspace/catkinws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/workspace/catkin_ws/install" TYPE PROGRAM FILES "/home/workspace/catkin_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/workspace/catkinws/install" TYPE PROGRAM FILES "/home/workspace/catkinws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/workspace/catkin_ws/install/setup.bash;/home/workspace/catkin_ws/install/local_setup.bash")
+   "/home/workspace/catkinws/install/setup.bash;/home/workspace/catkinws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/workspace/catkin_ws/install" TYPE FILE FILES
-    "/home/workspace/catkin_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/workspace/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/workspace/catkinws/install" TYPE FILE FILES
+    "/home/workspace/catkinws/build/catkin_generated/installspace/setup.bash"
+    "/home/workspace/catkinws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/workspace/catkin_ws/install/setup.sh;/home/workspace/catkin_ws/install/local_setup.sh")
+   "/home/workspace/catkinws/install/setup.sh;/home/workspace/catkinws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/workspace/catkin_ws/install" TYPE FILE FILES
-    "/home/workspace/catkin_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/workspace/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/workspace/catkinws/install" TYPE FILE FILES
+    "/home/workspace/catkinws/build/catkin_generated/installspace/setup.sh"
+    "/home/workspace/catkinws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/workspace/catkin_ws/install/setup.zsh;/home/workspace/catkin_ws/install/local_setup.zsh")
+   "/home/workspace/catkinws/install/setup.zsh;/home/workspace/catkinws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/workspace/catkin_ws/install" TYPE FILE FILES
-    "/home/workspace/catkin_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/workspace/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/workspace/catkinws/install" TYPE FILE FILES
+    "/home/workspace/catkinws/build/catkin_generated/installspace/setup.zsh"
+    "/home/workspace/catkinws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/workspace/catkin_ws/install/.rosinstall")
+   "/home/workspace/catkinws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/workspace/catkin_ws/install" TYPE FILE FILES "/home/workspace/catkin_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/workspace/catkinws/install" TYPE FILE FILES "/home/workspace/catkinws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/workspace/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/workspace/catkin_ws/build/my_robot/cmake_install.cmake")
-  include("/home/workspace/catkin_ws/build/teleop_twist_keyboard/cmake_install.cmake")
-  include("/home/workspace/catkin_ws/build/ball_chaser/cmake_install.cmake")
-  include("/home/workspace/catkin_ws/build/pgm_map_creator/cmake_install.cmake")
-  include("/home/workspace/catkin_ws/build/amcl/cmake_install.cmake")
+  include("/home/workspace/catkinws/build/gtest/cmake_install.cmake")
+  include("/home/workspace/catkinws/build/my_robot/cmake_install.cmake")
+  include("/home/workspace/catkinws/build/teleop_twist_keyboard/cmake_install.cmake")
+  include("/home/workspace/catkinws/build/ball_chaser/cmake_install.cmake")
+  include("/home/workspace/catkinws/build/pgm_map_creator/cmake_install.cmake")
+  include("/home/workspace/catkinws/build/amcl/cmake_install.cmake")
 
 endif()
 
@@ -142,5 +142,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/workspace/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/workspace/catkinws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

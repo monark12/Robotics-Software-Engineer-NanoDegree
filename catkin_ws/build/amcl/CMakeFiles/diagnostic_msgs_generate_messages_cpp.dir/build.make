@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/catkinws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/catkinws/build
 
 # Utility rule file for diagnostic_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ amcl/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build: diagnostic_msgs
 .PHONY : amcl/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
 
 amcl/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean:
-	cd /home/workspace/catkin_ws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/workspace/catkinws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : amcl/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
 
 amcl/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/amcl /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/amcl /home/workspace/catkin_ws/build/amcl/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkinws/src /home/workspace/catkinws/src/amcl /home/workspace/catkinws/build /home/workspace/catkinws/build/amcl /home/workspace/catkinws/build/amcl/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : amcl/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/depend
 

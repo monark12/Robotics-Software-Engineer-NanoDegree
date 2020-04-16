@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/catkinws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/catkinws/build
 
 # Utility rule file for amcl_willow-full-0.05.pgm.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
 include amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/progress.make
 
 amcl/CMakeFiles/amcl_willow-full-0.05.pgm:
-	cd /home/workspace/catkin_ws/build/amcl && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/willow-full-0.05.pgm /home/workspace/catkin_ws/devel/share/amcl/test/willow-full-0.05.pgm b61694296e08965096c5e78611fd9765 --ignore-error
+	cd /home/workspace/catkinws/build/amcl && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/download_checkmd5.py http://download.ros.org/data/amcl/willow-full-0.05.pgm /home/workspace/catkinws/devel/share/amcl/test/willow-full-0.05.pgm b61694296e08965096c5e78611fd9765 --ignore-error
 
 amcl_willow-full-0.05.pgm: amcl/CMakeFiles/amcl_willow-full-0.05.pgm
 amcl_willow-full-0.05.pgm: amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/build.make
@@ -67,10 +67,10 @@ amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/build: amcl_willow-full-0.05.pgm
 .PHONY : amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/build
 
 amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/clean:
-	cd /home/workspace/catkin_ws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/amcl_willow-full-0.05.pgm.dir/cmake_clean.cmake
+	cd /home/workspace/catkinws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/amcl_willow-full-0.05.pgm.dir/cmake_clean.cmake
 .PHONY : amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/clean
 
 amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/amcl /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/amcl /home/workspace/catkin_ws/build/amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkinws/src /home/workspace/catkinws/src/amcl /home/workspace/catkinws/build /home/workspace/catkinws/build/amcl /home/workspace/catkinws/build/amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : amcl/CMakeFiles/amcl_willow-full-0.05.pgm.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/catkinws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/catkinws/build
 
 # Utility rule file for _run_tests_amcl_rostest_test_set_initial_pose.xml.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
 include amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/progress.make
 
 amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml:
-	cd /home/workspace/catkin_ws/build/amcl && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/workspace/catkin_ws/build/test_results/amcl/rostest-test_set_initial_pose.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/workspace/catkin_ws/src/amcl --package=amcl --results-filename test_set_initial_pose.xml --results-base-dir \"/home/workspace/catkin_ws/build/test_results\" /home/workspace/catkin_ws/src/amcl/test/set_initial_pose.xml "
+	cd /home/workspace/catkinws/build/amcl && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/workspace/catkinws/build/test_results/amcl/rostest-test_set_initial_pose.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/workspace/catkinws/src/amcl --package=amcl --results-filename test_set_initial_pose.xml --results-base-dir \"/home/workspace/catkinws/build/test_results\" /home/workspace/catkinws/src/amcl/test/set_initial_pose.xml "
 
 _run_tests_amcl_rostest_test_set_initial_pose.xml: amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml
 _run_tests_amcl_rostest_test_set_initial_pose.xml: amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build.make
@@ -67,10 +67,10 @@ amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build: _ru
 .PHONY : amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/build
 
 amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/clean:
-	cd /home/workspace/catkin_ws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/cmake_clean.cmake
+	cd /home/workspace/catkinws/build/amcl && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/cmake_clean.cmake
 .PHONY : amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/clean
 
 amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/amcl /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/amcl /home/workspace/catkin_ws/build/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkinws/src /home/workspace/catkinws/src/amcl /home/workspace/catkinws/build /home/workspace/catkinws/build/amcl /home/workspace/catkinws/build/amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : amcl/CMakeFiles/_run_tests_amcl_rostest_test_set_initial_pose.xml.dir/depend
 

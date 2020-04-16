@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/catkinws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/catkinws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ my_robot/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_expor
 .PHONY : my_robot/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 my_robot/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/workspace/catkin_ws/build/my_robot && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/workspace/catkinws/build/my_robot && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : my_robot/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 my_robot/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/my_robot /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/my_robot /home/workspace/catkin_ws/build/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkinws/src /home/workspace/catkinws/src/my_robot /home/workspace/catkinws/build /home/workspace/catkinws/build/my_robot /home/workspace/catkinws/build/my_robot/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_robot/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

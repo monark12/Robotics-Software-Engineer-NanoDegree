@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/catkinws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/catkinws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/workspace/catkin_ws/build/CMakeFiles /home/workspace/catkin_ws/build/teleop_twist_keyboard/CMakeFiles/progress.marks
-	cd /home/workspace/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 teleop_twist_keyboard/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/workspace/catkin_ws/build/CMakeFiles 0
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/workspace/catkinws/build/CMakeFiles /home/workspace/catkinws/build/teleop_twist_keyboard/CMakeFiles/progress.marks
+	cd /home/workspace/catkinws/build && $(MAKE) -f CMakeFiles/Makefile2 teleop_twist_keyboard/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/workspace/catkinws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/workspace/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 teleop_twist_keyboard/clean
+	cd /home/workspace/catkinws/build && $(MAKE) -f CMakeFiles/Makefile2 teleop_twist_keyboard/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,17 +152,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/workspace/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 teleop_twist_keyboard/preinstall
+	cd /home/workspace/catkinws/build && $(MAKE) -f CMakeFiles/Makefile2 teleop_twist_keyboard/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/workspace/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 teleop_twist_keyboard/preinstall
+	cd /home/workspace/catkinws/build && $(MAKE) -f CMakeFiles/Makefile2 teleop_twist_keyboard/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/workspace/catkinws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
