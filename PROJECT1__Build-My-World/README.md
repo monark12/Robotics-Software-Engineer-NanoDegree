@@ -1,6 +1,6 @@
 <h2>Project 1 --> Build My Robot</h2>
 
-![my_world](/my_world.png)
+![my_world](my_world.png)
 
 <h3>Project Overview and Requiments</h3>
 
