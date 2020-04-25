@@ -1,6 +1,6 @@
 <h2>Project 2 --> Go Chase It</h2>
 
-![my_world](my_world.png)
+![ball_chaser](ball_chaser.gif)
 
 <h3>Project Overview and Requiments</h3>
 
