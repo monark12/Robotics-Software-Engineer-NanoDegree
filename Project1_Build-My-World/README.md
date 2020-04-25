@@ -56,7 +56,8 @@ mkdir build && cd build
 ```
 * In `/build` directory, compile your code with  
 ```bash
-cmake .. && make
+cmake ../ 
+make
 ```
 * Export your plugin folder in the terminal so your world file can find it:  
 ```bash
