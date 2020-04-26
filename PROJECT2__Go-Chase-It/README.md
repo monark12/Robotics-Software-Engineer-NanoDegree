@@ -1,3 +1,5 @@
+[![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
+
 <h2>Project 2 --> Go Chase It</h2>
 
 ![ball_chaser](ball_chaser.gif)
