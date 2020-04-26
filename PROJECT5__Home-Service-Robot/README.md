@@ -2,7 +2,9 @@
 
 <h2>Project 5 --> Home Service Robot</h2>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HQ9H_l-Sfo4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- ![home_service_robot](home_service_robot.gif) -->
+<video src="home-service-robot.mov" width="320" height="200" controls preload></video>
+
 
 * To generate map.pgm file from .db file generated using SLAM project.
 ```
