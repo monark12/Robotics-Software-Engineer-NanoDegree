@@ -3,7 +3,8 @@
 <h2>Project 5 --> Home Service Robot</h2>
 
 <!-- ![home_service_robot](home_service_robot.gif) -->
-<video src="home-service-robot.mov" width="320" height="200" controls preload></video>
+[![home_service_robot](home_service_robot.png)](https://www.youtube.com/watch?v=HQ9H_l-Sfo4)
+
 
 
 * To generate map.pgm file from .db file generated using SLAM project.
