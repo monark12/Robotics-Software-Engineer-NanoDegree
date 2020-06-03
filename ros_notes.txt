@@ -1,0 +1,65 @@
+1. >>>> ./ runs a command in a new environment which is destroyed after the program has finished execution.
+   >>>> source on the other hand runs the command or script in the same environment so the variables and environment changes are preserved.
+
+
+2. >>>> roscore 
+   new_tab >>>> rosrun <package_name> <node_executable>, ex --> rosrun turtlesim turtlesim_node
+   new_tab >>>> rosrun turtlesim turtle_teleop_key
+
+3. some useful commands.
+   >>>> rosnode list  --> list the currently running rose noded
+   >>>> rostopic info --> list the open topics for publishing
+   >>>> rostopic info <topicpath> --> info about the publisher and subscriber
+   >>>> rosmsg info <msgpath> --> message details
+   >>>> rosed <message_type> <message_name> --> opens a files containing the commnets and usage
+   >>>> rostopic echo <topicpath> --> prints the messages
+
+4. ROS directory layout --> https://www.ros.org/reps/rep-0128.html
+
+5. create catkin workspace -->
+   >>>> mkdir catkin_ws/src
+   >>>> cd catkin_ws/src
+   >>>> catkin_init_workspace
+   >>>> cd ..
+   >>>> catkin_make
+
+6. Adding a package to the workspace
+   >>>> download or clone a prebuilt package in the "src" direcroty
+   >>>> cd ..
+   >>>> catkin_make
+   OR for creating a custom package
+   >>>> cd catkin_ws/src
+   >>>> catkin_create_pkg my_robot
+   
+
+
+7. Launching using roslaunch, roslaunch manages launcing of nodes, managements, etc instead of manually doing it. go to the workspace main directory catkin_ws
+   >>>> source devel/setup.bash
+   >>>> roslaunch simple_arm robot_spawn.launch #SIMPLE_ARM you just cloned from git, robot_spawn.launch is a launch file
+
+8. to look and install missing dependencies, in root directory(catkin_ws)
+   >>>> rosdep check <package_name>, to check dependenceis
+   >>>> rosdep install <package_name>, ex, rosdep install simple_arm
+
+9. Create your own package, inside the src directory
+   >>>> catkin_create_pkg <your_package_name> [dependency1 dependency2 …]
+   >>>> then outside the src folder, again run catkin_make to install the package.
+
+10. ROS PACKAGES LIST --> https://www.ros.org/browse/list.php
+
+11. ROS packages have a conventional directory structure. Let’s take a look at a more typical package.
+
+	scripts (python executables)
+	src (C++ source files)
+	msg (for custom message definitions)
+	srv (for service message definitions)
+	include -> headers/libraries that are needed as dependencies
+	config -> configuration files
+	launch -> provide a more automated way of starting nodes
+	Other folders may include
+
+	urdf (Universal Robot Description Files)
+	meshes (CAD files in .dae (Collada) or .stl (STereoLithography) format)
+	worlds (XML like files that are used for Gazebo simulation environments)
+
+12. 
